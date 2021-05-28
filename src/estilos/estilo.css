@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    /* BOTOES NAVBAR */
+    --button-width: 25px;
+    --button-height: calc(var(--button-width) * .8);
+    --rectangle-height: calc(var(--button-width) * .1);
+    --rectangle-radius: calc(var(--button-width) * .04);
+    --translate: calc(var(--button-width) * .17);
+    --transition: 0.65s;
+
+    /*BOTOES CAPA*/
+
+    --buton-capa-color:#7BA4C8;
+    --buton-capa-color--hover:#678aa9;
+  }
+  
