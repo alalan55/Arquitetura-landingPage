@@ -20,5 +20,16 @@ body{
 
     --buton-capa-color:#7BA4C8;
     --buton-capa-color--hover:#678aa9;
-  }
+
+      /*PADDING UNIVERSAL*/
+
+      --padding-uiversal:4em;
+      --pading-universal-mobile:2em;
+
+      /*FONT SIZE*/
+      --F1: 3.5em;
+      --F2: 2rem;
+      --F3: 1.5rem;
+    
+}
   
