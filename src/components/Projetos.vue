@@ -78,5 +78,8 @@ export default {
     .container{
         padding: var(--pading-universal-mobile);
     }
+    .descricao__projetos span{
+        font-size: var(--F3);
+    }
 }
 </style>
