@@ -146,6 +146,7 @@ nav {
     text-align: center;
     transition: all 0.5s;
     background: rgba(0, 0, 0, 0.93);
+    z-index: 10;
   }
   .links li {
     margin: 2em 0;
