@@ -25,16 +25,16 @@
         </div>
       </section>
       <section class="contatos">
-          <Contato/>
+          <CardContato/>
       </section>
     </div>
   </div>
 </template>
 <script>
-import Contato from "@/views/Contato.vue"
+import CardContato from "@/components/CardContato.vue"
 export default {
   components: {
-    Contato
+    CardContato
   },
 };
 </script>
