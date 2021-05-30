@@ -2,12 +2,10 @@ import {createRouter, createWebHistory} from 'vue-router'
 import Home from '@/views/Home.vue'
 import Contato from '@/views/Contato.vue'
 
-//import _Arquitetura from '@/views/_Arquitetura.vue'
-
 const routes = [
     //Principais
     {
-        path: '/',
+        path: '/Home',
         name: 'Home',
         component: Home
     },
