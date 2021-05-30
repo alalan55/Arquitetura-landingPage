@@ -5,10 +5,10 @@
         <span>LOGO.CO</span>
       </div>
       <ul class="links">
-        <router-link to="/" class="link">Home</router-link>
+        <router-link to="/" class="link" @click="nav">Home</router-link>
         <li><a href="">Sobre</a></li>
-        <li><a href="#Projetos">Projetos</a></li>
-        <router-link to="/Contato" class="link">Fale conosco</router-link>
+        <li><a href="#Projetos" @click="nav">Projetos</a></li>
+        <router-link to="/Contato" class="link" @click="nav">Fale conosco</router-link>
       </ul>
       <button class="fancy-burger" @click="nav">
         <span class="box"></span>
@@ -24,7 +24,6 @@ export default {
   data() {
     return {
       active: false,
-      active2: false,
     };
   },
   methods: {
@@ -41,7 +40,7 @@ export default {
       });
 
       this.active ? overlay.style.left = 0 : overlay.style.left = '-100%'
-    },
+    }
   },
 };
 </script>
