@@ -1,5 +1,4 @@
 <template>
-         <Navbar/>
     <div class="container">
          <div class="informacoes__contato">
              <div class="card__informacoes">
@@ -25,10 +24,10 @@
 </template>
 
 <script>
-import Navbar from '@/components/Navbar.vue'
+// import Navbar from '@/components/Navbar.vue'
     export default {
         components: {
-            Navbar,
+         //   Navbar,
      }
     }
 </script>
@@ -70,6 +69,8 @@ import Navbar from '@/components/Navbar.vue'
     width: 100%;
     margin: 1em .2em;
     flex: 1 1 260px;
+    background: none;
+    border: 1px solid;
 }
 .assunto{
      width: 100%;
@@ -79,6 +80,7 @@ import Navbar from '@/components/Navbar.vue'
      min-width: 99.5%;
      margin: 1em .2em;
     padding: .7em;
+    background: none;
 }
 
 @media screen and (max-width: 596px){
