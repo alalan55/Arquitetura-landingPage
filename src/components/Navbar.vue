@@ -5,10 +5,10 @@
         <span>LOGO.CO</span>
       </div>
       <ul class="links">
-        <li><a href="">Home</a></li>
+        <router-link to="/" class="link">Home</router-link>
         <li><a href="">Sobre</a></li>
-        <li><a href="">Projetos</a></li>
-        <li><a href="">Fale conosco</a></li>
+        <li><a href="#Projetos">Projetos</a></li>
+        <router-link to="/Contato" class="link">Fale conosco</router-link>
       </ul>
       <button class="fancy-burger" @click="nav">
         <span class="box"></span>
@@ -123,6 +123,16 @@ nav {
     background: var(--buton-capa-color);
     color: white;
 }
+.link{
+   text-decoration: none;
+   padding: .5em;
+   color: black;
+   transition: .1s ease-in;
+}
+.link:hover{
+   background: var(--buton-capa-color);
+    color: white;
+}
 
 .bars {
   display: none;
@@ -152,6 +162,9 @@ nav {
     margin: 2em 0;
   }
   .links li a {
+    color: white;
+  }
+  .link{
     color: white;
   }
 }

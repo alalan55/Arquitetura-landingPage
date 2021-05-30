@@ -11,7 +11,7 @@
             <div class="descricao__card">
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat optio cupiditate commodi, repellendus unde iste.</p>
             </div>
-         <a href="" class="btn__info"> Leia mais <i class="fas fa-arrow-right"></i></a>
+         <router-link to="/Arquitetura" class="btn__info">Leia mais <i class="fas fa-arrow-right"></i></router-link>
         </div>
 
           <div class="card">
@@ -21,7 +21,8 @@
             <div class="descricao__card">
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat optio cupiditate commodi, repellendus unde iste.</p>
             </div>
-        <a href="" class="btn__info"> Leia mais <i class="fas fa-arrow-right"></i></a>
+        <router-link to="/Design-Interiores" class="btn__info">Leia mais <i class="fas fa-arrow-right"></i></router-link>
+         
         </div>
 
           <div class="card">
@@ -31,7 +32,7 @@
             <div class="descricao__card">
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat optio cupiditate commodi, repellendus unde iste.</p>
             </div>
-            <a href="" class="btn__info"> Leia mais <i class="fas fa-arrow-right"></i></a>
+             <router-link to="/Construcoes" class="btn__info">Leia mais <i class="fas fa-arrow-right"></i></router-link>
         </div>
     </div>
 
