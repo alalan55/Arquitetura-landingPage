@@ -1,4 +1,4 @@
-# arquitetura-landing-page
+# Arquitetura landing page 🏗️
 
 ## Project setup
 ```
